@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="350dp">
+
+    <TextView
+        android:id="@+id/textViewJudulan"
+        style="@style/headerTextPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Mangaku"
+        android:textColor="#d13636"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextInputanrating"
+        android:layout_width="109dp"
+        android:layout_height="19dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <TextView
+        android:id="@+id/editTextInputanJenis"
+        android:layout_width="109dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:background="@drawable/edit_text_box"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextInputanUlasan" />
+
+    <TextView
+        android:id="@+id/editTextInputanSinopsis"
+        android:layout_width="109dp"
+        android:layout_height="19dp"
+        android:layout_marginEnd="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <TextView
+        android:id="@+id/editTextInputanGenre"
+        android:layout_width="109dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextInputanJenis" />
+
+    <TextView
+        android:id="@+id/editTextInputanJudul"
+        android:layout_width="109dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="156dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInputanNama" />
+
+    <TextView
+        android:id="@+id/editTextInputanUlasan"
+        android:layout_width="109dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextInputanSinopsis" />
+
+    <TextView
+        android:id="@+id/textViewInputanNama"
+        android:layout_width="80dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="24dp"
+        android:text="Judul Manga"
+        android:textAlignment="viewStart"
+        android:textColor="@color/teal_700"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewJudulan" />
+
+    <TextView
+        android:id="@+id/textViewnputanSinopsis"
+        android:layout_width="90dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="36dp"
+        android:text="Sinopsis"
+        android:textAlignment="textStart"
+        android:textColor="@color/teal_700"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toStartOf="@+id/editTextInputanSinopsis"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextInputanJudul" />
+
+    <TextView
+        android:id="@+id/textViewInputanUlasan"
+        android:layout_width="80dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="20dp"
+        android:text="Ulasan"
+        android:textColor="@color/teal_700"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toStartOf="@+id/editTextInputanUlasan"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewnputanSinopsis" />
+
+    <TextView
+        android:id="@+id/textViewInputanJenis"
+        android:layout_width="80dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="20dp"
+        android:text="Jenis Manga"
+        android:textColor="@color/teal_700"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toStartOf="@+id/editTextInputanJenis"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInputanUlasan" />
+
+    <TextView
+        android:id="@+id/textViewInputanGenre"
+        android:layout_width="80dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="20dp"
+        android:text="Genre"
+        android:textColor="@color/teal_700"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toStartOf="@+id/editTextInputanGenre"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInputanJenis" />
+
+    <TextView
+        android:id="@+id/textViewInputanRating"
+        android:layout_width="80dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="24dp"
+        android:text="Rating"
+        android:textColor="@color/teal_700"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toStartOf="@+id/editTextInputanrating"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInputanGenre" />
+
+    <Button
+        android:id="@+id/bt_ok"
+        style="@style/loginButton"
+        android:layout_width="75dp"
+        android:layout_height="34dp"
+        android:text="OK"
+        android:textSize="12dp"
+        android:visibility="visible"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
