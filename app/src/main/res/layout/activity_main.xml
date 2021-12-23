@@ -11,7 +11,7 @@
         android:id="@+id/imageView3"
         style="@style/parent"
         android:layout_width="474dp"
-        android:layout_height="725dp"
+        android:layout_height="800dp"
         android:background="@drawable/bkdua"
         android:contentDescription="login background"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,11 +22,10 @@
         android:id="@+id/include"
         style="@style/parent"
         layout="@layout/layout_home"
-        android:layout_width="417dp"
-        android:layout_height="544dp"
+        android:layout_width="379dp"
+        android:layout_height="533dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView3" />
 

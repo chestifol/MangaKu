@@ -117,7 +117,7 @@
 
             <RadioGroup
                 android:id="@+id/rbgroupJenis"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="64dp"
                 android:layout_marginTop="-10dp"
                 android:orientation="horizontal">
@@ -131,7 +131,8 @@
                     android:buttonTint="@color/black"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="Shoujo"
-                    android:textColor="#d13636" />
+                    android:textColor="#d13636"
+                    android:textSize="13dp" />
 
                 <RadioButton
                     android:id="@+id/rb_shoujo"
@@ -142,7 +143,8 @@
                     android:buttonTint="@color/black"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="Shounen"
-                    android:textColor="#d13636" />
+                    android:textColor="#d13636"
+                    android:textSize="13dp" />
 
                 <RadioButton
                     android:id="@+id/rb_seinen"
@@ -154,7 +156,8 @@
                     android:buttonTint="@color/black"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="Seinen"
-                    android:textColor="#d13636" />
+                    android:textColor="#d13636"
+                    android:textSize="13dp" />
             </RadioGroup>
 
             <TextView

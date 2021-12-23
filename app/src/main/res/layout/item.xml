@@ -41,7 +41,7 @@
                 android:fontFamily="@font/poppins_bold"
                 android:text="Judul"
                 android:textColor="#a12222"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:textStyle="bold" />
 
             <LinearLayout

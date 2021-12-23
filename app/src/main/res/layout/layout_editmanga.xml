@@ -116,7 +116,7 @@
 
             <RadioGroup
                 android:id="@+id/rbgroupubahJenis"
-                android:layout_width="match_parent"
+                android:layout_width="320dp"
                 android:layout_height="64dp"
                 android:layout_marginTop="-10dp"
                 android:orientation="horizontal">
@@ -130,6 +130,7 @@
                     android:buttonTint="@color/black"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="Shoujo"
+                    android:textSize="13dp"
                     android:textColor="#d13636" />
 
                 <RadioButton
@@ -141,6 +142,7 @@
                     android:buttonTint="@color/black"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="Shounen"
+                    android:textSize="13dp"
                     android:textColor="#d13636" />
 
                 <RadioButton
@@ -153,6 +155,7 @@
                     android:buttonTint="@color/black"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="Seinen"
+                    android:textSize="13dp"
                     android:textColor="#d13636" />
             </RadioGroup>
 
@@ -290,7 +293,7 @@
                     android:id="@+id/Rating"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="180dp"
+                    android:layout_marginLeft="150dp"
                     android:layout_marginTop="0dp"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="Score : "
